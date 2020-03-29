@@ -1,0 +1,478 @@
+		//华泰证券(信用)
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[1] = lpFuncLogonEx("55.XY", "61.132.54.83", 7718, "7.04", 1, 9, "1", "1", "1", "1", szErrInfo);
+		printf("ClientIDs[1] = %d, Error = %s\n", ClientIDs[1], szErrInfo);
+
+		//华泰证券(普通)
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[1] = lpFuncLogonEx("55.XY", "61.132.54.83", 7718, "6.05", 0, 9, "1", "1", "1", "1", szErrInfo);
+		printf("ClientIDs[1] = %d, Error = %s\n", ClientIDs[1], szErrInfo);
+		
+		//招商证券
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[2] = lpFuncLogonEx("16", "119.145.12.67", 443, "6.05", 0, 8, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[2] = %d, Error = %s\n", ClientIDs[2], szErrInfo);
+
+LogonEx("57", "218.28.18.21", 7708, "7.33",0, 8,"1111", "1111","1111", string.Empty, ErrInfo)//民生 
+
+LogonEx("39", "222.173.22.52", 7700, "2.10", 0, 4, "109190009391", "109190009391", "177165", "177165", szErrInfo);
+
+		//银河证券
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[3] = lpFuncLogonEx("27", "124.74.242.150", 7708, "2.66", 110, 8, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[3] = %d, Error = %s\n", ClientIDs[3], szErrInfo);
+		//金元证券
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[4] = lpFuncLogonEx("17", "218.17.218.225", 7708, "6.44", 0, 8, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[4] = %d, Error = %s\n", ClientIDs[4], szErrInfo);
+		//山西证券		
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[5] = lpFuncLogonEx("79", "218.26.224.151", 7708, "6.36", 0, 8, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[5] = %d, Error = %s\n", ClientIDs[5], szErrInfo);
+
+		//广发证券
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[6] = lpFuncLogonEx("12", "183.62.246.154", 7708, "8.19", 1, 9, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[6] = %d, Error = %s\n", ClientIDs[6], szErrInfo);
+
+		//海通证券
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[7] = lpFuncLogonEx("102", "218.80.248.229", 7708, "2.03", 0, 8, "1", "1", "1", "1", szErrInfo);
+		printf("ClientIDs[7] = %d, Error = %s\n", ClientIDs[7], szErrInfo);
+
+		//东方证券
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[8] = lpFuncLogonEx("61", "114.80.145.63", 7708, "7.06", 0, 8, "1", "1", "1", "1", szErrInfo);
+		printf("ClientIDs[8] = %d, Error = %s\n", ClientIDs[8], szErrInfo);
+	
+		//东兴证券
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[9] = lpFuncLogonEx("26", "114.80.178.210", 7758, "8.20", 0, 8, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[9] = %d, Error = %s\n", ClientIDs[9], szErrInfo);
+
+		//华福证券
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[10] = lpFuncLogonEx("44", "120.36.4.193", 8081, "6.30", 0, 9, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[10] = %d, Error = %s\n", ClientIDs[10], szErrInfo);
+
+		//九州证券
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[11] = lpFuncLogonEx("122", "183.3.217.11", 7708, "1.17", 0, 8, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[11] = %d, Error = %s\n", ClientIDs[11], szErrInfo);
+	
+		//财富证券
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[12] = lpFuncLogonEx("25", "120.86.65.58", 8001, "6.49", 0, 8, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[12] = %d, Error = %s\n", ClientIDs[12], szErrInfo);
+	
+		
+		//齐鲁证券 中泰证券
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[13] = lpFuncLogonEx("36", "222.173.22.52", 7700, "2.10", 0, 4, "109190009391", "109190009391", "177165", "177165", szErrInfo);
+		printf("ClientIDs[13] = %d, Error = %s\n", ClientIDs[13], szErrInfo);
+		
+		//大同证券
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[14] = lpFuncLogonEx("58", "211.152.32.138", 7708, "6.22", 0, 8, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[14] = %d, Error = %s\n", ClientIDs[14], szErrInfo);
+
+		//浙商证券
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[15] = lpFuncLogonEx("104", "121.43.73.200", 7708, "2.02", 0, 8, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[15] = %d, Error = %s\n", ClientIDs[15], szErrInfo);
+
+		//兴业证券
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[16] = lpFuncLogonEx("15", "27.115.74.121", 7758, "6.66", 0, 8, "1", "1", "1", "1", szErrInfo);
+		printf("ClientIDs[16] = %d, Error = %s\n", ClientIDs[16], szErrInfo);
+
+		//万联证券
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[17] = lpFuncLogonEx("89", "59.41.59.202", 7708, "6.15", 0, 8, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[17] = %d, Error = %s\n", ClientIDs[17], szErrInfo);
+		
+		//平安证券
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[18] = lpFuncLogonEx("7", "202.69.19.56", 7708, "2.12", 0, 8, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[18] = %d, Error = %s\n", ClientIDs[18], szErrInfo);
+		
+		//华龙证券
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[19] = lpFuncLogonEx("94", "61.178.68.15", 443, "6.29", 0, 8, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[19] = %d, Error = %s\n", ClientIDs[19], szErrInfo);
+
+		//联讯证券
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[20] = lpFuncLogonEx("106", "125.93.31.126", 7708, "6.38", 0, 9, "1", "1", "1", "1", szErrInfo);
+		printf("ClientIDs[20] = %d, Error = %s\n", ClientIDs[20], szErrInfo);
+
+		//华金证券
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[21] = lpFuncLogonEx("121", "101.226.251.246", 7708, "1.08", 0, 8, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[21] = %d, Error = %s\n", ClientIDs[21], szErrInfo);
+
+		//日信证券 国融证券
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[22] = lpFuncLogonEx("95", "124.127.49.198", 7708, "6.22", 0, 9, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[22] = %d, Error = %s\n", ClientIDs[22], szErrInfo);
+
+		//厦门证券 长城国瑞证券
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[23] = lpFuncLogonEx("60", "218.5.69.35", 7708, "6.42", 0, 8, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[23] = %d, Error = %s\n", ClientIDs[23], szErrInfo);
+
+		//第一创业
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[24] = lpFuncLogonEx("2", "113.108.112.130", 7708, "7.00", 1, 8, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[24] = %d, Error = %s\n", ClientIDs[24], szErrInfo);
+
+		//华泰证券(普通)
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[25] = lpFuncLogonEx("55", "61.132.54.83", 7708, "6.43", 0, 9, "1", "1", "1", "1", szErrInfo);
+		printf("ClientIDs[25] = %d, Error = %s\n", ClientIDs[25], szErrInfo);
+
+		//安信证券(普通)
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[26] = lpFuncLogonEx("24", "114.80.149.29", 7708, "7.12", 0, 8, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[26] = %d, Error = %s\n", ClientIDs[26], szErrInfo);
+
+
+		//安信证券(信用)
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[27] = lpFuncLogonEx("24.XY", "114.80.149.29", 7718, "7.12", 0, 8, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[27] = %d, Error = %s\n", ClientIDs[27], szErrInfo);
+
+
+		//西部证券
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[28] = lpFuncLogonEx("78", "222.90.136.120", 443, "6.06", 1, 8, "1", "1", "1", "1", szErrInfo);
+		printf("ClientIDs[28] = %d, Error = %s\n", ClientIDs[28], szErrInfo);
+
+
+		//宏信证券
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[29] = lpFuncLogonEx("85", "222.73.51.135", 7708, "6.78", 1, 8, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[29] = %d, Error = %s\n", ClientIDs[29], szErrInfo);
+
+		//兴业证券
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[30] = lpFuncLogonEx("15", "222.77.188.101", 7758, "6.68", 1, 8, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[30] = %d, Error = %s\n", ClientIDs[30], szErrInfo);	
+
+		//联储证券
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[31] = lpFuncLogonEx("59", "183.63.229.59", 7708, "6.38", 1, 8, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[31] = %d, Error = %s\n", ClientIDs[31], szErrInfo);
+
+
+		//万联证券信用
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[32] = lpFuncLogonEx("89", "119.147.172.176", 7708, "6.15", 2, 9, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[32] = %d, Error = %s\n", ClientIDs[32], szErrInfo);
+
+		//山西证券
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[33] = lpFuncLogonEx("79", "218.26.224.151", 7708, "6.36", 1, 8, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[33] = %d, Error = %s\n", ClientIDs[33], szErrInfo);
+
+		//东兴证券信用
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[34] = lpFuncLogonEx("26", "114.80.178.210", 7785, "8.20", 0, 9, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[34] = %d, Error = %s\n", ClientIDs[34], szErrInfo);
+		
+		//金元证券
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[35] = lpFuncLogonEx("17", "218.17.218.225", 7708, "6.44", 0, 8, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[35] = %d, Error = %s\n", ClientIDs[35], szErrInfo);
+		
+
+		//光大证券
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[36] = lpFuncLogonEx("28", "124.74.249.197", 6677, "7.03", 1, 8, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[36] = %d, Error = %s\n", ClientIDs[36], szErrInfo);
+
+		//联储证券
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[37] = lpFuncLogonEx("59", "42.236.123.243", 7708, "6.38", 1, 8, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[37] = %d, Error = %s\n", ClientIDs[37], szErrInfo);
+
+		//国信证券
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[38] = lpFuncLogonEx("4", "183.56.155.70", 7708, "6.40", 3300, 8, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[38] = %d, Error = %s\n", ClientIDs[38], szErrInfo);
+		
+		//东吴证券
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[39] = lpFuncLogonEx("103", "58.211.31.245", 7708, "6.26", 0, 8, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[39] = %d, Error = %s\n", ClientIDs[39], szErrInfo);
+		
+		//太平洋证券
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[40] = lpFuncLogonEx("75", "116.52.1.50", 7708, "6.68", 0, 8, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[40] = %d, Error = %s\n", ClientIDs[40], szErrInfo);
+
+		//华西证券
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[41] = lpFuncLogonEx("14", "182.131.7.180", 7708, "7.26", 0, 8, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[41] = %d, Error = %s\n", ClientIDs[41], szErrInfo);
+
+		//红塔证券
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[42] = lpFuncLogonEx("19", "61.138.203.12", 7708, "6.28", 1, 8, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[42] = %d, Error = %s\n", ClientIDs[42], szErrInfo);
+
+		//中信建投
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[43] = lpFuncLogonEx("18", "180.153.15.133", 7708, "6.53", 3, 8, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[43] = %d, Error = %s\n", ClientIDs[43], szErrInfo);
+
+		//齐鲁证券 中泰证券(普通交易)
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[44] = lpFuncLogonEx("36", "123.232.108.84", 7700, "2.10", 0, 0, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[44] = %d, Error = %s\n", ClientIDs[44], szErrInfo);
+
+		//南京证券
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[45] = lpFuncLogonEx("31", "222.190.123.66", 7708, "7.02", 0, 9, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[45] = %d, Error = %s\n", ClientIDs[45], szErrInfo);
+
+
+		//万和证券
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[46] = lpFuncLogonEx("68", "61.144.217.227", 7708, "6.31", 0, 9, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[46] = %d, Error = %s\n", ClientIDs[46], szErrInfo);
+		
+
+		//信达证券
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[47] = lpFuncLogonEx("71", "114.80.104.61", 7712, "6.60", 0, 8, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[47] = %d, Error = %s\n", ClientIDs[47], szErrInfo);
+
+		//中信证券
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[48] = lpFuncLogonEx("32", "180.153.18.180", 7708, "8.33", 0, 8, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[48] = %d, Error = %s\n", ClientIDs[48], szErrInfo);
+
+		//海通证券(信用)
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[49] = lpFuncLogonEx("102", "218.80.248.229", 7706, "2.02", 9999, 8, "1", "1", "1", "1", szErrInfo);
+		printf("ClientIDs[49] = %d, Error = %s\n", ClientIDs[49], szErrInfo);
+
+  
+		//中山证券
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[50] = lpFuncLogonEx("132", "113.105.125.27", 7708, "1.00", 1, 9, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[50] = %d, Error = %s\n", ClientIDs[50], szErrInfo);
+
+	
+		//联储证券(信用)
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[51] = lpFuncLogonEx("59", "183.63.229.59", 7608, "6.38", 2, 8, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[51] = %d, Error = %s\n", ClientIDs[51], szErrInfo);
+	
+		//申万证券(信用)
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[52] = lpFuncLogonEx("53", "218.80.243.27", 7708, "8.16", 0, 8, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[52] = %d, Error = %s\n", ClientIDs[52], szErrInfo);
+		
+
+		//中山证券(信用)
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[53] = lpFuncLogonEx("132", "113.105.125.27", 7722, "1.00", 2, 8, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[53] = %d, Error = %s\n", ClientIDs[53], szErrInfo);
+
+		//中山证券(普通)
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[54] = lpFuncLogonEx("132", "113.105.125.27", 7708, "1.00", 1, 8, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[54] = %d, Error = %s\n", ClientIDs[54], szErrInfo);
+
+		//东方财富证券(普通)
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[55] = lpFuncLogonEx("109", "180.163.42.100", 7708, "1.03", 1, 8, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[55] = %d, Error = %s\n", ClientIDs[55], szErrInfo);
+		
+		//国海证券(普通)
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[55] = lpFuncLogonEx("76", "58.59.138.9", 7708, "6.54", 1, 8, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[55] = %d, Error = %s\n", ClientIDs[55], szErrInfo);		
+		
+		//广发证券
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[56] = lpFuncLogonEx("12", "101.226.255.198", 7708, "8.22", 0, 8, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[56] = %d, Error = %s\n", ClientIDs[56], szErrInfo);
+
+		//银河证券
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[57] = lpFuncLogonEx("27", "124.74.242.150", 7708, "2.66", 210, 8, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[57] = %d, Error = %s\n", ClientIDs[57], szErrInfo);
+
+		//宏信证券
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[58] = lpFuncLogonEx("85", "222.73.51.135", 7708, "6.78", 1, 8, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[58] = %d, Error = %s\n", ClientIDs[58], szErrInfo);
+
+		//华泰证券(普通)
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[59] = lpFuncLogonEx("55", "61.132.54.83", 7708, "6.43", 0, 9, "1", "1", "1", "1", szErrInfo);
+		printf("ClientIDs[59] = %d, Error = %s\n", ClientIDs[59], szErrInfo);
+
+		//兴业证券
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[60] = lpFuncLogonEx("15", "27.115.74.121", 7758, "6.66", 0, 8, "1", "1", "1", "1", szErrInfo);
+		printf("ClientIDs[60] = %d, Error = %s\n", ClientIDs[60], szErrInfo);
+
+
+		//华泰证券(普通)103000075619
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[61] = lpFuncLogonEx("55", "61.132.54.83", 7708, "6.43", 0, 9, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[61] = %d, Error = %s\n", ClientIDs[61], szErrInfo);
+		
+		//安信证券(信用)
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[62] = lpFuncLogonEx("24.XY", "114.80.149.29", 7718, "7.12", 0, 8, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[62] = %d, Error = %s\n", ClientIDs[62], szErrInfo);
+
+		//东北证券
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[63] = lpFuncLogonEx("56", "61.138.179.100", 7708, "6.68", 0, 8, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[63] = %d, Error = %s\n", ClientIDs[63], szErrInfo);
+
+		//上海华信证券
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[63] = lpFuncLogonEx("107", "180.168.189.183", 7708, "1.18", 0, 8, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[63] = %d, Error = %s\n", ClientIDs[63], szErrInfo);
+
+		//国元证券
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[64] = lpFuncLogonEx("45", "61.191.48.10", 7708, "6.78", 34, 8, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[64] = %d, Error = %s\n", ClientIDs[64], szErrInfo);
+
+
+		//华林证券
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[65] = lpFuncLogonEx("43", "121.15.173.148", 7708, "6.53", 0, 8, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[65] = %d, Error = %s\n", ClientIDs[65], szErrInfo);
+
+		//江海证券
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[66] = lpFuncLogonEx("73", "61.158.42.13", 7788, "6.29", 0, 8, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[66] = %d, Error = %s\n", ClientIDs[66], szErrInfo);
+
+		//财富证券-信用
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[67] = lpFuncLogonEx("25", "120.86.65.58", 8003, "6.49", 0, 8, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[67] = %d, Error = %s\n", ClientIDs[67], szErrInfo);
+
+		//联储证券(信用)
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[68] = lpFuncLogonEx("59", "183.63.229.59", 7608, "6.38", 2, 8, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[68] = %d, Error = %s\n", ClientIDs[68], szErrInfo);
+
+		//华西证券(信用)
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[68] = lpFuncLogonEx("14", "182.131.7.180", 7705, "7.26", 0, 8, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[68] = %d, Error = %s\n", ClientIDs[68], szErrInfo);
+
+		//中天证券(信用)
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[69] = lpFuncLogonEx("90", "218.25.36.247", 7708, "6.13", 0, 8, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[69] = %d, Error = %s\n", ClientIDs[69], szErrInfo);
+
+
+		//山西证券(信用)
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[70] = lpFuncLogonEx("79", "218.26.224.151", 7707, "6.36", 3, 8, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[70] = %d, Error = %s\n", ClientIDs[70], szErrInfo);
+
+		//恒泰证券(信用)
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[71] = lpFuncLogonEx("92", "202.99.230.133", 7738, "6.40", 30000, 8, "1", "1", "1", "1", szErrInfo);
+		printf("ClientIDs[71] = %d, Error = %s\n", ClientIDs[71], szErrInfo);
+
+		//恒泰证券
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[72] = lpFuncLogonEx("92", "116.228.223.187", 7708, "6.40", 0, 8, "1", "1", "1", "1", szErrInfo);
+		printf("ClientIDs[72] = %d, Error = %s\n", ClientIDs[72], szErrInfo);
+
+
+		//中天证券(信用)
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[73] = lpFuncLogonEx("90", "218.25.36.247", 7708, "6.13", 0, 9, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[73] = %d, Error = %s\n", ClientIDs[73], szErrInfo);
+
+		
+		//宏信证券
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[74] = lpFuncLogonEx("85", "222.73.51.135", 7708, "6.78", 1, 8, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[74] = %d, Error = %s\n", ClientIDs[74], szErrInfo);
+
+		//华鑫证券
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[75] = lpFuncLogonEx("54", "114.80.155.93", 7708, "6.54", 0, 8, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[75] = %d, Error = %s\n", ClientIDs[75], szErrInfo);
+
+		//国泰君安
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[76] = lpFuncLogonEx("22", "114.141.165.219", 7708, "9.40", 42, 8, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[76] = %d, Error = %s\n", ClientIDs[76], szErrInfo);
+
+		//中投证券
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[77] = lpFuncLogonEx("51", "61.144.233.115", 443, "7.01", 1001, 8, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[77] = %d, Error = %s\n", ClientIDs[77], szErrInfo);	
+				
+		//中天证券
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[78] = lpFuncLogonEx("90", "218.25.36.247", 7708, "6.13", 0, 9, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[78] = %d, Error = %s\n", ClientIDs[78], szErrInfo);
+		
+		//平安证券(信用)
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[79] = lpFuncLogonEx("7", "202.69.19.56", 7738, "2.12", 1088, 8, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[79] = %d, Error = %s\n", ClientIDs[79], szErrInfo);
+		
+
+		//中信建投
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[80] = lpFuncLogonEx("18", "180.153.15.133", 7708, "6.53", 2, 8, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[80] = %d, Error = %s\n", ClientIDs[80], szErrInfo);
+		
+
+		//财通证券
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[81] = lpFuncLogonEx("98", "60.191.116.36", 7708, "6.49", 1, 8, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[81] = %d, Error = %s\n", ClientIDs[81], szErrInfo);
+		
+
+		//华福证券(信用)
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[82] = lpFuncLogonEx("44", "120.36.4.193", 8081, "6.30", 1, 9, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[82] = %d, Error = %s\n", ClientIDs[82], szErrInfo);
+		
+
+		//华龙证券(信用)
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[83] = lpFuncLogonEx("94", "61.178.68.15", 444, "6.29", 0, 8, "1", "1", "1", "", szErrInfo);
+		printf("ClientIDs[83] = %d, Error = %s\n", ClientIDs[83], szErrInfo);
+
+		//天风证券
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[83] = lpFuncLogonEx("93", "59.36.5.76", 7708, "6.48", 1, 8, "66167532", "66167532", "201710", "", szErrInfo);
+		printf("ClientIDs[83] = %d, Error = %s\n", ClientIDs[83], szErrInfo);
+
+		//东北证券(信用)
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[84] = lpFuncLogonEx("56", "121.43.74.163", 7808, "6.68", 3, 8, "650800006", "650800006", "812436", "", szErrInfo);
+		printf("ClientIDs[84] = %d, Error = %s\n", ClientIDs[84], szErrInfo);
+		
+
+		//华金证券
+		memset(szErrInfo, '\0', sizeof(szErrInfo));
+		ClientIDs[85] = lpFuncLogonEx("121", "221.239.33.2", 7708, "1.08", 1, 8, "36000950", "36000950", "583699", "", szErrInfo);
+		printf("ClientIDs[85] = %d, Error = %s\n", ClientIDs[85], szErrInfo);
+		
+		
+		114.251.2.71:7708	2.71
+
+
+		

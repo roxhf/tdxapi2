@@ -1,0 +1,15 @@
+{
+  "ip": "192.168.3.10",
+
+  "port": 5678,
+
+  "hostname": "127.0.0.1",
+
+  "database": "nspz168",
+
+  "username": "root",
+
+  "password": "",
+
+  "hostport": "3306"
+}
